@@ -28,6 +28,9 @@ env:
 
   - variable: NUXT_OAUTH_GITHUB_CLIENT_SECRET
     secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_OAUTH_GITHUB_CLIENT_SECRET
+
+  - variable: NUXT_OAUTH_GITHUB_REDIRECT_URL
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_OAUTH_GITHUB_REDIRECT_URL
 # Settings for Cloud Run
 runConfig:
   minInstances: 1
