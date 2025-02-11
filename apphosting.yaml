@@ -1,0 +1,37 @@
+env:
+  - variable: NUXT_PUBLIC_IS_DATA_MOCKED
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_PUBLIC_IS_DATA_MOCKED
+
+  - variable: NUXT_PUBLIC_SCOPE
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_PUBLIC_SCOPE
+
+  - variable: NUXT_PUBLIC_GITHUB_ORG
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_PUBLIC_GITHUB_ORG
+
+  - variable: NUXT_PUBLIC_GITHUB_ENT
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_PUBLIC_GITHUB_ENT
+
+  - variable: NUXT_PUBLIC_GITHUB_TEAM
+    value: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_PUBLIC_GITHUB_TEAM
+
+  - variable: NUXT_PUBLIC_USING_GITHUB_AUTH
+    value: true
+
+  - variable: NUXT_GITHUB_TOKEN
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_GITHUB_TOKEN
+
+  - variable: NUXT_SESSION_PASSWORD
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_SESSION_PASSWORD
+
+  - variable: NUXT_OAUTH_GITHUB_CLIENT_ID
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_OAUTH_GITHUB_CLIENT_ID
+
+  - variable: NUXT_OAUTH_GITHUB_CLIENT_SECRET
+    secret: projects/768896016484/secrets/COPILOT_VIEWER_NUXT_OAUTH_GITHUB_CLIENT_SECRET
+# Settings for Cloud Run
+runConfig:
+  minInstances: 1
+  maxInstances: 3
+  concurrency: 50
+  cpu: 1
+  memoryMiB: 512
